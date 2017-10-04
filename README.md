@@ -21,7 +21,11 @@ meterCoinXValue MeasureName - Should be "measureCoinXPrice".
 meterCoinXValue NumOfDecimals - The number of decimals for this value. Smaller-value cryptos need more decimals to be able to display their value.
 
 If you find this useful, please donate!
+
 BTC = 184J6U6h8gVUsdKAkexJ67Zqp3qbbYz2gt
+
 ETH = 0xe9593011eA2b8f224896ce032913D7D38beF2875
+
 XRP = rBjWBHKyvhJR5wDsSgvwbAuMWzFh3xqmXE
+
 SC  = dda34ab07247a2cafe280e1e18e7c70491628fc2bef824f9a746f0ed4062b614516089d3bf68
