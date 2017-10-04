@@ -12,12 +12,19 @@ To remove a crypto, just delete the entire block reading from "; COIN X START" t
 To add a crypto, copy one of those blocks and change the coin number in each heading (i.e., measureCoinXName, etc.).
 Make sure you copy the blocks and change the heading names in both "MEASURES" and "METERS".
 You'll also need to change the following variable values:
+
 measureCoinXName String - Change to what the coin is called, such as "BTC" or "Bitcoin".
+
 measureCoinXUrl URL - The coinmarketcap API address for this coin (https://coinmarketcap.com/api/).
+
 measureCoinXValue URL - Should be "measureCoinXUrl".
+
 measureCoinXPrice Formula - Should be "measureCoinXValue".
+
 meterCoinXName MeasureName - Should be "measureCoinXName".
+
 meterCoinXValue MeasureName - Should be "measureCoinXPrice".
+
 meterCoinXValue NumOfDecimals - The number of decimals for this value. Smaller-value cryptos need more decimals to be able to display their value.
 
 If you find this useful, please donate!
